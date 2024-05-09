@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-docker-solution" />
+        <module name="microprofile-solution" />
+        <module name="dockerfile-solutions" />
+        <module name="project-producer-start" />
+        <module name="quarkus-solution" />
+        <module name="quarkus-start" />
+        <module name="javaee7-docker-maven-solution" />
+        <module name="javaee7-docker-maven-start" />
+        <module name="project-solution-producer" />
+        <module name="project-consumer-start" />
+        <module name="dockerfile-start" />
+        <module name="spring-boot-docker-start" />
+        <module name="microprofile-start" />
+        <module name="testcontainers-start" />
+        <module name="project-solution-consumer" />
+        <module name="testcontainers-solution" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="project-consumer-start" options="-parameters" />
+      <module name="project-producer-start" options="-parameters" />
+      <module name="project-solution" options="-parameters" />
+      <module name="project-solution-consumer" options="-parameters" />
+      <module name="project-solution-producer" options="-parameters" />
+      <module name="spring-boot-docker-solution" options="-parameters" />
+      <module name="spring-boot-docker-start" options="-parameters" />
+    </option>
+  </component>
+</project>

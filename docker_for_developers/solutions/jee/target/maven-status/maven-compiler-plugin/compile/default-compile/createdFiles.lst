@@ -1,0 +1,4 @@
+service/people/PeopleApplication.class
+service/people/PersonResource.class
+service/people/Person.class
+service/people/PersonDatabase.class

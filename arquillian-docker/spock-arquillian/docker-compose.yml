@@ -1,0 +1,11 @@
+version: '2'
+services:
+  jboss:
+    build:
+      context: ./src/test/docker/jboss
+    ports:
+    - 9999:9999
+    - 9990:9990
+    - 8080:8080
+    - 8787:8787
+

@@ -1,0 +1,16 @@
+version: '2'
+services:
+  jboss:
+    build:
+      context: ./src/test/docker/jboss
+    links:
+    - postgres:postgresql-server   
+    ports:
+    - 9999:9999
+    - 9990:9990
+    - 8080:8080
+    - 8787:8787
+  postgres:
+    image: armdocker.rnd.ericsson.se/proj_oss_releases/enm/postgres  
+  
+  

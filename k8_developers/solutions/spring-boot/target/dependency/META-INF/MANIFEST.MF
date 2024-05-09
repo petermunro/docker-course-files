@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-boot-docker-solution
+Implementation-Version: 0.1.0
+Built-By: user
+Implementation-Vendor-Id: com.demo
+Spring-Boot-Version: 2.1.4.RELEASE
+Main-Class: org.springframework.boot.loader.JarLauncher
+Start-Class: message.Application
+Spring-Boot-Classes: BOOT-INF/classes/
+Spring-Boot-Lib: BOOT-INF/lib/
+Created-By: Apache Maven 3.6.0
+Build-Jdk: 1.8.0_212
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/spring-boot-docker-solution
+
